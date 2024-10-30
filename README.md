@@ -14,15 +14,7 @@ activity_main.xml: Um layout básico para a interface da Activity.
 Código do Ciclo de Vida
 Cada método do ciclo de vida foi sobrescrito para exibir mensagens usando Log.d e Toast. Exemplo de como está implementado:
 
-kotlin
-Copiar código
-override fun onCreate(savedInstanceState: Bundle?) {
-    super.onCreate(savedInstanceState)
-    setContentView(R.layout.activity_main)
-    Log.d(TAG, "onCreate chamado")
-    Toast.makeText(this, "onCreate chamado", Toast.LENGTH_SHORT).show()
-}
-Esse mesmo padrão foi aplicado aos métodos onStart, onResume, onPause, onStop, onDestroy, e onRestart.
+https://github.com/JOSEEUSTAQUIOSILVERI0/app-lifecycle.git 
 
 Como Testar
 Abra o aplicativo: Ao iniciar o aplicativo, observe as mensagens onCreate, onStart, e onResume.
